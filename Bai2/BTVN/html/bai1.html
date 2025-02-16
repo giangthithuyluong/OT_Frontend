@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2_1</title>
+    <link rel="stylesheet" href="../css/bai1.css">
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h2>Login</h2>
+        <div>
+            <label for="email">Nhập email: </label>
+            <input type="email" name="email" id="email" placeholder="Vui lòng nhập email">
+        </div>
+        <div>
+            <label for="pass">Nhập mật khẩu: </label>
+            <input type="password" name="pass" id="pass" placeholder="Vui lòng nhập mật khẩu">
+        </div>
+        <div class="function">
+            <p><a href="forgot.php">Bạn quên mật khẩu</a></p>
+            <p>Create an account?<a href="sigup.php">Sign up</a></p>
+        </div>
+        <div class="login">
+            <input type="submit" value="Login">
+            <b><center>Or Login</center></b>
+            <input class="logWithFace" type="submit" value="Login With Facebook">
+        </div>
+    </form>
+</body>
+</html>
