@@ -1,0 +1,26 @@
+.item {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    border: 2px solid black;
+    font-size: x-large;
+}
+.item .img {
+    width: 300px;
+    height: 300px;
+    background-image: url("../../image/Bài\ 3_1.jpg");
+    background-size: cover;
+    position: relative;
+}
+.item .sale {
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+    background-color: bisque;
+}
+.item .cost {
+    text-decoration: line-through;
+}
+.item .sCost {
+    color: red;
+}
